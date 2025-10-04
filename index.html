@@ -7,57 +7,58 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
-
 </head>
 
 <body class="bg-[#21C98B] flex justify-center items-center min-h-screen">
     <div class="bg-white grid grid-cols-3 text-center pl-7 pr-7 gap-x-5 shadow-xl shadow-black/10">
         <div class="col-span-3 text-2xl font-medium mt-6">
-            <span class="text-black/60">0748 86</span><span class="text-black/30">9 733</span>
+            <div class="text-black/60" id="phone-number"></div>
+            <!--  <span class="text-black/60">0748 86</span><span class="text-black/30">9 733</span>-->
         </div>
-        <div class="col-span-3 text-xs text-black/50 mb-5">Larry Black</div>
-        <div class="border border-[#6FFFFE] rounded-full w-10 h-10 text-sm mb-3">1</div>
-        <div class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3">
+        <div class="col-span-3 text-xs text-black/50 mb-5"></div>
+        <button class="border border-[#6FFFFE] rounded-full w-10 h-10 text-sm mb-3" id="add">1</button>
+        <button class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3" id="add">
             <span class="text-sm">2</span>
             <span class="text-[0.5rem]">ABC</span>
-        </div>
-        <div class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3">
+        </button>
+        <button class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3" id="add">
             <span class="text-sm">3</span>
             <span class="text-[0.5rem]">DEF</span>
-        </div>
-        <div class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3">
+        </button>
+        <button class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3" id="add">
             <span class="text-sm">4</span>
             <span class="text-[0.5rem]">GHI</span>
-        </div>
-        <div class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3">
+        </button>
+        <button class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3" id="add">
             <span class="text-sm">5</span>
             <span class="text-[0.5rem]">JKL</span>
-        </div>
-        <div class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3">
+        </button>
+        <button class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3" id="add">
             <span class="text-sm">6</span>
             <span class="text-[0.5rem]">MNO</span>
-        </div>
-        <div class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3">
+        </button>
+        <button class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3" id="add">
             <span class="text-sm">7</span>
             <span class="text-[0.5rem]">PQRS</span>
-        </div>
-        <div class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3">
+        </button>
+        <button class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3" id="add">
             <span class="text-sm">8</span>
             <span class="text-[0.5rem]">TUV</span>
-        </div>
-        <div class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3">
+        </button>
+        <button class="grid grid-rows-2 border border-[#6FFFFE] rounded-full w-10 h-10 mb-3" id="add">
             <span class="text-sm">9</span>
             <span class="text-[0.5rem]">XYZ</span>
-        </div>
-        <div class="border border-[#6FFFFE] rounded-full w-10 h-10 text-sm mb-3 flex justify-center items-center">*
-        </div>
-        <div class="border border-[#6FFFFE] rounded-full w-10 h-10 text-sm mb-3 flex justify-center items-center">0
-        </div>
-        <div class="border border-[#6FFFFE] rounded-full w-10 h-10 text-sm mb-3 flex justify-center items-center">#
-        </div>
-        <div class="text-black/20 text-4xl font-thin mb-3">+</div>
-        <i class="bx bxs-phone bg-[#31B9F3] flex justify-center items-center border rounded-full shadow-lg shadow-[#31B9F3]/50 mb-3"  style="color:#ffffff"></i>
-        <i class="bx bx-backspace bx-flip-vertical text-3xl flex justify-center items-center"  style='color:#9b9a9a'></i>
-</body>
+        </button>
+        <button class="border border-[#6FFFFE] rounded-full w-10 h-10 text-sm mb-3 flex justify-center items-center" id="add">*
+        </button>
+        <button class="border border-[#6FFFFE] rounded-full w-10 h-10 text-sm mb-3 flex justify-center items-center" id="add">0
+        </button>
+        <button class="border border-[#6FFFFE] rounded-full w-10 h-10 text-sm mb-3 flex justify-center items-center" id="add">#
+        </button>
+        <button class="text-black/20 text-4xl font-thin mb-3" id="add">+</button>
+        <button class="bx bxs-phone bg-[#31B9F3] flex justify-center items-center border rounded-full shadow-lg shadow-[#31B9F3]/50 mb-3"  style="color:#ffffff"></button>
+        <button class="bx bx-backspace bx-flip-vertical text-3xl flex justify-center items-center"  style='color:#9b9a9a' id="delete"></button>
+    <script src="app.js"></script>
+    </body>
 
 </html>
